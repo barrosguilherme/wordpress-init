@@ -1,5 +1,49 @@
+v1.4.6 - 22-January-2019
+- Security Fix: Cross-site scripting (XSS) vulnerability.
+
+v1.4.5 - 21-November-2019
+- Improvement: Added missing font awesome icons support for the Elementor sites.
+
+v1.4.4 - 14-November-2019
+- Improvement: Added the old browser compatibility in which Astra Sites not loading.
+- Improvement: Used `gmdate()` function instead of `date()` which affected by runtime timezone changes.
+
+v1.4.3 - 7-November-2019
+- Fix: Installing premium plugin from the WP CLI import.
+- Fix: WP CLI command `wp astra-sites list` showing the old result.
+- Fix: PHP error Astra_Sites_Batch_Processing_Elementor does not exist from WP CLI import.
+- Improvement: Some Elementor templates broken due to the missing wp_slash() from WP CLI import.
+
+v1.4.2 - 4-November-2019
+- Fix: Correctly added nonce to allow notice to be dismissed.
+- Fix: Restore the timeout time to be 300 seconds which is the default for `download_url()`
+
+v1.4.1 - 31-October-2019
+- Fix: PHP Error on PHP Versions below 7.0 due to usage of a PHP reserved function name.
+
+v1.4.0 - 30-October-2019
+- New: Added the WP CLI command `wp astra-sites list` to list the demo sites.
+- New: Added the WP CLI command `wp astra-sites import <id>` to import the demo with ID.
+- New: Added the WP CLI command `wp astra-sites page_builder list` to list all page builders.
+- New: Added the WP CLI command `wp astra-sites page_builder set <slug>` to set the default page builder by page builder slug.
+
+v1.3.22 - 25-October-2019
+- Security Fix: XSS vulnerability fixed by adding nonce verification and capability checks.
+
+v1.3.21 - 15-October-2019
+- Fix: Updated Astra Notice library to v1.1.4.
+
+v1.3.20 - 12-September-2019
+- Improvement: Allow extra query parameters to be added to the API calls for Astra Sites using filters.
+
+v1.3.19 - 5-September-2019
+- Improvement: Error handling while getting import data from API request.
+
+v1.3.18 - 13-August-2019
+- Update issue with other products
+
 v1.3.17 - 28-June-2019
-- Minor changes in Links
+- Improvement: Minor changes in Links
 
 v1.3.16 - 21-June-2019
 - Fix: WooCommerce onboarding setup blocked issue fixed.

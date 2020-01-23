@@ -298,7 +298,8 @@ var AstraSitesAjaxQueue = (function() {
 				url  : astraSitesAdmin.ajaxurl,
 				type : 'POST',
 				data : {
-					action : 'astra-sites-reset-customizer-data'
+					action : 'astra-sites-reset-customizer-data',
+					_ajax_nonce      : astraSitesAdmin._ajax_nonce,
 				},
 				beforeSend: function() {
 					AstraSitesAdmin._log_title( 'Reseting Customizer Data..' );
@@ -319,7 +320,8 @@ var AstraSitesAjaxQueue = (function() {
 				url  : astraSitesAdmin.ajaxurl,
 				type : 'POST',
 				data : {
-					action : 'astra-sites-reset-site-options'
+					action : 'astra-sites-reset-site-options',
+					_ajax_nonce      : astraSitesAdmin._ajax_nonce,
 				},
 				beforeSend: function() {
 					AstraSitesAdmin._log_title( 'Reseting Site Options..' );
@@ -340,7 +342,8 @@ var AstraSitesAjaxQueue = (function() {
 				url  : astraSitesAdmin.ajaxurl,
 				type : 'POST',
 				data : {
-					action : 'astra-sites-reset-widgets-data'
+					action : 'astra-sites-reset-widgets-data',
+					_ajax_nonce      : astraSitesAdmin._ajax_nonce,
 				},
 				beforeSend: function() {
 					AstraSitesAdmin._log_title( 'Reseting Widgets..' );
@@ -370,6 +373,7 @@ var AstraSitesAjaxQueue = (function() {
 						data: {
 							action  : 'astra-sites-delete-posts',
 							post_id : post_id,
+							_ajax_nonce      : astraSitesAdmin._ajax_nonce,
 						},
 						success: function( result ){
 
@@ -408,6 +412,7 @@ var AstraSitesAjaxQueue = (function() {
 						data: {
 							action  : 'astra-sites-delete-wp-forms',
 							post_id : post_id,
+							_ajax_nonce      : astraSitesAdmin._ajax_nonce,
 						},
 						success: function( result ){
 
@@ -446,6 +451,7 @@ var AstraSitesAjaxQueue = (function() {
 						data: {
 							action  : 'astra-sites-delete-terms',
 							term_id : term_id,
+							_ajax_nonce      : astraSitesAdmin._ajax_nonce,
 						},
 						success: function( result ){
 							if( AstraSitesAdmin.reset_processed_terms < AstraSitesAdmin.site_imported_data['reset_terms'].length ) {
@@ -493,6 +499,7 @@ var AstraSitesAjaxQueue = (function() {
 				type : 'POST',
 				data : {
 					action : 'astra-sites-backup-settings',
+					_ajax_nonce      : astraSitesAdmin._ajax_nonce,
 				},
 				beforeSend: function() {
 					AstraSitesAdmin._log_title( 'Processing Customizer Settings Backup..' );
@@ -526,6 +533,7 @@ var AstraSitesAjaxQueue = (function() {
 				data : {
 					action          : 'astra-sites-import-customizer-settings',
 					customizer_data : AstraSitesAdmin.current_site['astra-site-customizer-data'],
+					_ajax_nonce      : astraSitesAdmin._ajax_nonce,
 				},
 				beforeSend: function() {
 					AstraSitesAdmin._log_title( 'Importing Customizer Settings..' );
@@ -562,6 +570,7 @@ var AstraSitesAjaxQueue = (function() {
 				dataType: 'json',
 				data : {
 					action : 'astra-sites-import-end',
+					_ajax_nonce      : astraSitesAdmin._ajax_nonce,
 				},
 				beforeSend: function() {
 					AstraSitesAdmin._log_title( 'Import Complete!' );
@@ -629,6 +638,7 @@ var AstraSitesAjaxQueue = (function() {
 					data : {
 						action       : 'astra-sites-import-widgets',
 						widgets_data : AstraSitesAdmin.widgets_data,
+						_ajax_nonce      : astraSitesAdmin._ajax_nonce,
 					},
 					beforeSend: function() {
 						AstraSitesAdmin._log_title( 'Importing Widgets..' );
@@ -668,6 +678,7 @@ var AstraSitesAjaxQueue = (function() {
 					data : {
 						action       : 'astra-sites-import-options',
 						options_data : AstraSitesAdmin.options_data,
+						_ajax_nonce      : astraSitesAdmin._ajax_nonce,
 					},
 					beforeSend: function() {
 						AstraSitesAdmin._log_title( 'Importing Options..' );
@@ -706,6 +717,7 @@ var AstraSitesAjaxQueue = (function() {
 					data : {
 						action  : 'astra-sites-import-prepare-xml',
 						wxr_url : AstraSitesAdmin.current_site['astra-site-wxr-path'],
+						_ajax_nonce      : astraSitesAdmin._ajax_nonce,
 					},
 					beforeSend: function() {
 						$('.astra-site-import-process-wrap').show();
@@ -716,6 +728,8 @@ var AstraSitesAjaxQueue = (function() {
 					AstraSitesAdmin._log_title( jqXHR.status + ' ' + jqXHR.responseText, true );
 			    })
 				.done(function ( xml_data ) {
+
+					xml_data.data.url = wp.url.addQueryArgs( xml_data.data.url, { _ajax_nonce: astraSitesAdmin._ajax_nonce } )
 
 					// 2. Fail - Prepare XML Data.
 					if( false === xml_data.success ) {
@@ -819,6 +833,7 @@ var AstraSitesAjaxQueue = (function() {
 					data : {
 						action      : 'astra-sites-import-wpforms',
 						wpforms_url : AstraSitesAdmin.wpforms_url,
+						_ajax_nonce      : astraSitesAdmin._ajax_nonce,
 					},
 					beforeSend: function() {
 						AstraSitesAdmin._log_title( 'Importing WP Forms..' );
@@ -855,6 +870,7 @@ var AstraSitesAjaxQueue = (function() {
 					data : {
 						action          : 'astra-sites-import-customizer-settings',
 						customizer_data : AstraSitesAdmin.customizer_data,
+						_ajax_nonce      : astraSitesAdmin._ajax_nonce,
 					},
 					beforeSend: function() {
 					},
@@ -930,7 +946,7 @@ var AstraSitesAjaxQueue = (function() {
 		 * 
 		 * @param  {string} data Error message.
 		 */
-		_importFailMessage: function( message, from ) {
+		_importFailMessage: function( message ) {
 
 			$('.astra-demo-import')
 				.addClass('go-pro button-primary')
@@ -940,40 +956,10 @@ var AstraSitesAjaxQueue = (function() {
 				.append('<i class="dashicons dashicons-external"></i>')
 				.removeClass('astra-demo-import');
 
-			// Add the doc link due to import log file not generated.
-			if( 'undefined' === from ) {
+			AstraSitesAdmin._log_title( message );
 
-				$('.wp-full-overlay-header .go-pro').text( astraSitesAdmin.strings.importFailedBtnSmall );
-				$('.wp-full-overlay-footer .go-pro').text( astraSitesAdmin.strings.importFailedBtnLarge );
-				$('.go-pro').attr('href', astraSitesAdmin.log.serverConfiguration );
-
-			// Add the import log file link.
-			} else {
-				
-				$('.wp-full-overlay-header .go-pro').text( astraSitesAdmin.strings.importFailBtn );
-				$('.wp-full-overlay-footer .go-pro').text( astraSitesAdmin.strings.importFailBtnLarge )
-				
-				// Add the import log file link.
-				if( 'undefined' !== AstraSitesAdmin.log_file_url ) {
-					$('.go-pro').attr('href', AstraSitesAdmin.log_file_url );
-				} else {
-					$('.go-pro').attr('href', astraSitesAdmin.log.serverConfiguration );
-				}
-			}
-
-			var output  = '<div class="astra-api-error notice notice-error notice-alt is-dismissible">';
-				output += '	<p>'+message+'</p>';
-				output += '	<button type="button" class="notice-dismiss">';
-				output += '		<span class="screen-reader-text">'+commonL10n.dismiss+'</span>';
-				output += '	</button>';
-				output += '</div>';
-
-			// Fail Notice.
-			$('.install-theme-info').append( output );
-			
-			// !important to add trigger.
-			// Which reinitialize the dismiss error message events.
-			$(document).trigger('wp-updates-notice-added');
+			$('.wp-full-overlay-header .go-pro').text( astraSitesAdmin.strings.importFailBtn );
+			$('.wp-full-overlay-footer .go-pro').text( astraSitesAdmin.strings.importFailBtnLarge )
 		},
 
 
@@ -1063,6 +1049,7 @@ var AstraSitesAjaxQueue = (function() {
 						'init'              : $init,
 						'options'           : $siteOptions,
 						'enabledExtensions' : $enabledExtensions,
+						'_ajax_nonce'      : astraSitesAdmin._ajax_nonce,
 					},
 				})
 				.done(function (result) {
@@ -1150,6 +1137,7 @@ var AstraSitesAjaxQueue = (function() {
 					'init'              : $init,
 					'options'           : $siteOptions,
 					'enabledExtensions' : $enabledExtensions,
+					'_ajax_nonce'      : astraSitesAdmin._ajax_nonce,
 				},
 			})
 			.done(function (result) {
@@ -1249,6 +1237,7 @@ var AstraSitesAjaxQueue = (function() {
 						'init'              : single_plugin.init,
 						'options'           : $siteOptions,
 						'enabledExtensions' : $enabledExtensions,
+						'_ajax_nonce'      : astraSitesAdmin._ajax_nonce,
 					},
 					success: function( result ){
 
@@ -1367,6 +1356,7 @@ var AstraSitesAjaxQueue = (function() {
 				data : {
 					'action'  : 'astra-sites-import-set-site-data',
 					'api_url' : apiURL,
+					'_ajax_nonce'      : astraSitesAdmin._ajax_nonce,
 				},
 			})
 			.fail(function( jqXHR ){
@@ -1376,8 +1366,7 @@ var AstraSitesAjaxQueue = (function() {
 
 				// 1. Fail - Request Site Import
 				if( false === demo_data.success ) {
-
-
+					AstraSitesAdmin._importFailMessage( demo_data.data );
 				} else {
 
 					// Set log file URL.
@@ -1606,6 +1595,7 @@ var AstraSitesAjaxQueue = (function() {
 				type : 'POST',
 				data : {
 					action : 'astra-sites-set-reset-data',
+					'_ajax_nonce'      : astraSitesAdmin._ajax_nonce,
 				},
 			})
 			.done(function ( response ) {

@@ -169,7 +169,7 @@ if ( ! class_exists( 'Brainstorm_Update_Astra_Pro_Sites' ) ) :
 		public function remove_astra_pro_bundled_products( $product_parent, $bsf_product, $search_by ) {
 
 			// Bundled plugins are installed when the demo is imported on Ajax request and bundled products should be unchanged in the ajax.
-			if ( ! defined( 'DOING_AJAX' ) ) {
+			if ( ! defined( 'DOING_AJAX' ) && ! defined( 'WP_CLI' ) ) {
 
 				$key = array_search( 'astra-pro-sites', $product_parent, true );
 

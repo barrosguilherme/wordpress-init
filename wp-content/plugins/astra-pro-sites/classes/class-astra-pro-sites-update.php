@@ -115,6 +115,7 @@ if ( ! class_exists( 'Astra_Pro_Sites_Update' ) ) :
 			}
 
 		}
+
 	}
 
 	/**

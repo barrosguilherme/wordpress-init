@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the Astra Premium Sites package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Astra Premium Sites 1.3.17\n"
+"Project-Id-Version: Astra Premium Sites 1.4.6\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/astra-pro-sites\n"
-"POT-Creation-Date: 2019-06-28 10:57:30+00:00\n"
+"POT-Creation-Date: 2019-11-21 13:35:09+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -36,72 +36,74 @@ msgid ""
 "newsletter."
 msgstr ""
 
-#: admin/bsf-core/BSF_License_Manager.php:332
+#: admin/bsf-core/BSF_License_Manager.php:427
 msgid "Product id is missing."
 msgstr ""
 
-#: admin/bsf-core/BSF_License_Manager.php:410
+#: admin/bsf-core/BSF_License_Manager.php:505
 msgid ""
 "<p>Click on the button below to activate your license and subscribe to our "
 "newsletter.</p>"
 msgstr ""
 
-#: admin/bsf-core/BSF_License_Manager.php:412
+#: admin/bsf-core/BSF_License_Manager.php:507
 msgid "<p>Enter your purchase key and activate automatic updates.</p>"
 msgstr ""
 
-#: admin/bsf-core/BSF_License_Manager.php:439
+#: admin/bsf-core/BSF_License_Manager.php:534
 msgid "Your license is active."
 msgstr ""
 
-#: admin/bsf-core/BSF_License_Manager.php:549
-#: admin/bsf-core/BSF_License_Manager.php:564 includes/license-form.php:18
+#: admin/bsf-core/BSF_License_Manager.php:644
+#: admin/bsf-core/BSF_License_Manager.php:659 includes/license-form.php:18
 msgid "Activate License"
 msgstr ""
 
-#: admin/bsf-core/BSF_License_Manager.php:552
+#: admin/bsf-core/BSF_License_Manager.php:647
 msgid "License"
 msgstr ""
 
-#: admin/bsf-core/BSF_License_Manager.php:565 includes/license-form.php:19
+#: admin/bsf-core/BSF_License_Manager.php:660 includes/license-form.php:19
 msgid "Deactivate License"
 msgstr ""
 
-#: admin/bsf-core/BSF_License_Manager.php:567 includes/license-form.php:21
+#: admin/bsf-core/BSF_License_Manager.php:662 includes/license-form.php:21
 msgid "Your license is not active!"
 msgstr ""
 
-#: admin/bsf-core/BSF_License_Manager.php:568 includes/license-form.php:22
+#: admin/bsf-core/BSF_License_Manager.php:663 includes/license-form.php:22
 msgid "Your license is activated!"
 msgstr ""
 
-#: admin/bsf-core/BSF_License_Manager.php:614 inc/includes/admin-page.php:156
+#: admin/bsf-core/BSF_License_Manager.php:709 inc/includes/admin-page.php:156
 msgid "Close"
 msgstr ""
 
-#: admin/bsf-core/BSF_Update_Manager.php:566
+#: admin/bsf-core/BSF_Update_Manager.php:512
 msgid ""
 " <br>This plugin is came bundled with the <i>%1$s</i>. For receiving "
 "updates, you need to register license of <i>%2$s</i> <a "
 "href=\"%3$s\">here</a>."
 msgstr ""
 
-#: admin/bsf-core/BSF_Update_Manager.php:568
-msgid " <i>Click <a href=\"%1$s\">here</a> to activate your license.</i>"
+#: admin/bsf-core/BSF_Update_Manager.php:514
+msgid ""
+" <i>Please <a href=\"%1$s\">activate your license</a> to update the "
+"plugin.</i>"
 msgstr ""
 
-#: admin/bsf-core/BSF_Update_Manager.php:633
-#: admin/bsf-core/BSF_Update_Manager.php:660
+#: admin/bsf-core/BSF_Update_Manager.php:578
+#: admin/bsf-core/BSF_Update_Manager.php:605
 msgid ""
 "Click <a target=\"_blank\" href=\"%1$1s\">here</a> to activate license of "
 "<i>%2$2s</i> to receive automatic updates."
 msgstr ""
 
-#: admin/bsf-core/BSF_Update_Manager.php:639
+#: admin/bsf-core/BSF_Update_Manager.php:584
 msgid "Activate license of <i>%2s</i> to receive automatic updates."
 msgstr ""
 
-#: admin/bsf-core/BSF_Update_Manager.php:645
+#: admin/bsf-core/BSF_Update_Manager.php:590
 msgid ""
 "This plugin is came bundled with the <i>%1$1s</i>. For receiving updates, "
 "you need to register license of <i>%2$2s</i> <a target=\"_blank\" "
@@ -250,55 +252,55 @@ msgstr ""
 msgid "Update"
 msgstr ""
 
-#: admin/bsf-core/index.php:195 admin/bsf-core/index.php:196
-msgid "Extensions"
-msgstr ""
-
-#: admin/bsf-core/index.php:328
-msgid "iMedica Extensions"
-msgstr ""
-
-#: admin/bsf-core/index.php:825
+#: admin/bsf-core/includes/helpers.php:175
 msgid " requires following plugins to be active : "
 msgstr ""
 
-#: admin/bsf-core/index.php:835
+#: admin/bsf-core/includes/helpers.php:185
 msgid " requires following plugins to be installed and activated : "
 msgstr ""
 
-#: admin/bsf-core/index.php:844
+#: admin/bsf-core/includes/helpers.php:194
 msgid "Begin activating plugins"
 msgstr ""
 
-#: admin/bsf-core/index.php:848
+#: admin/bsf-core/includes/helpers.php:198
 msgid "Begin installing plugins"
 msgstr ""
 
-#: admin/bsf-core/index.php:851
+#: admin/bsf-core/includes/helpers.php:201
 msgid "Dismiss This Notice"
 msgstr ""
 
-#: admin/bsf-core/index.php:877
+#: admin/bsf-core/includes/helpers.php:228
 msgid ""
 "Looks like you are on a WordPress Multisite, you will need to install and "
 "network activate %1$s Brainstorm Updater for Multisite %2$s plugin. "
 "Download it from %3$s here %4$s"
 msgstr ""
 
-#: admin/bsf-core/index.php:1194
+#: admin/bsf-core/includes/system-info.php:10
 msgid "WordPress Environment"
 msgstr ""
 
-#: admin/bsf-core/index.php:1298
+#: admin/bsf-core/includes/system-info.php:114
 msgid "Server Environment"
 msgstr ""
 
-#: admin/bsf-core/index.php:1402
+#: admin/bsf-core/includes/system-info.php:218
 msgid "Theme Information"
 msgstr ""
 
-#: admin/bsf-core/index.php:1422
+#: admin/bsf-core/includes/system-info.php:238
 msgid "Installed Plugins"
+msgstr ""
+
+#: admin/bsf-core/index.php:151 admin/bsf-core/index.php:152
+msgid "Extensions"
+msgstr ""
+
+#: admin/bsf-core/index.php:284
+msgid "iMedica Extensions"
 msgstr ""
 
 #: admin/bsf-core/plugin-installer/admin-functions.php:173
@@ -373,7 +375,7 @@ msgstr ""
 msgid "Astra Premium Sites"
 msgstr ""
 
-#: astra-sites.php:12 inc/classes/class-astra-sites-page.php:393
+#: astra-sites.php:12 inc/classes/class-astra-sites-page.php:416
 msgid "Astra Starter Sites"
 msgstr ""
 
@@ -419,7 +421,7 @@ msgid ""
 "href=\"%2$s\">deactivate one</a>."
 msgstr ""
 
-#: classes/class-astra-pro-sites.php:196 inc/classes/class-astra-sites.php:227
+#: classes/class-astra-pro-sites.php:196 inc/classes/class-astra-sites.php:260
 msgid "See Library"
 msgstr ""
 
@@ -441,38 +443,51 @@ msgstr ""
 msgid "No"
 msgstr ""
 
-#: inc/classes/class-astra-sites-importer.php:126
-msgid "You have not \"customize\" access to import the Astra site."
+#: inc/classes/class-astra-sites-importer.php:129
+#: inc/classes/class-astra-sites-importer.php:243
+#: inc/classes/class-astra-sites-importer.php:335
+#: inc/classes/class-astra-sites-importer.php:377
+#: inc/classes/class-astra-sites-importer.php:426
+#: inc/classes/class-astra-sites-importer.php:472
+#: inc/classes/class-astra-sites-importer.php:519
+#: inc/classes/class-astra-sites-importer.php:649
+#: inc/classes/class-astra-sites-importer.php:677
+#: inc/classes/class-astra-sites-importer.php:711
+#: inc/classes/class-astra-sites-importer.php:763
+#: inc/classes/class-astra-sites-importer.php:802
+#: inc/classes/class-astra-sites-importer.php:837
+#: inc/classes/class-astra-sites.php:85 inc/classes/class-astra-sites.php:104
+msgid "You are not allowed to perform this action"
 msgstr ""
 
-#: inc/classes/class-astra-sites-importer.php:150
+#: inc/classes/class-astra-sites-importer.php:152
 msgid "Request site API URL is empty. Try again!"
 msgstr ""
 
-#: inc/classes/class-astra-sites-importer.php:250
+#: inc/classes/class-astra-sites-importer.php:359
 msgid "Customizer data is empty!"
 msgstr ""
 
-#: inc/classes/class-astra-sites-importer.php:264
+#: inc/classes/class-astra-sites-importer.php:381
 msgid ""
 "If XMLReader is not available, it imports all other settings and only skips "
 "XML import. This creates an incomplete website. We should bail early and "
 "not import anything if this is not present."
 msgstr ""
 
-#: inc/classes/class-astra-sites-importer.php:282
+#: inc/classes/class-astra-sites-importer.php:399
 msgid "There was an error downloading the XML file."
 msgstr ""
 
-#: inc/classes/class-astra-sites-importer.php:288
+#: inc/classes/class-astra-sites-importer.php:405
 msgid "Invalid site XML file!"
 msgstr ""
 
-#: inc/classes/class-astra-sites-importer.php:315
+#: inc/classes/class-astra-sites-importer.php:450
 msgid "Site options are empty!"
 msgstr ""
 
-#: inc/classes/class-astra-sites-importer.php:345
+#: inc/classes/class-astra-sites-importer.php:500
 msgid "Widget data is empty!"
 msgstr ""
 
@@ -484,11 +499,11 @@ msgid ""
 "here »</a>"
 msgstr ""
 
-#: inc/classes/class-astra-sites-page.php:184
+#: inc/classes/class-astra-sites-page.php:194
 msgid "Required XMLReader PHP extension is missing on your server!"
 msgstr ""
 
-#: inc/classes/class-astra-sites-page.php:186
+#: inc/classes/class-astra-sites-page.php:196
 #. translators: %s is the white label name.
 msgid ""
 "%s import requires XMLReader extension to be installed. Please contact your "
@@ -496,54 +511,54 @@ msgid ""
 "extension."
 msgstr ""
 
-#: inc/classes/class-astra-sites-page.php:248
+#: inc/classes/class-astra-sites-page.php:258
 msgid "Settings saved successfully."
 msgstr ""
 
-#: inc/classes/class-astra-sites-page.php:278
+#: inc/classes/class-astra-sites-page.php:288
 msgid "Select Page Builder"
 msgstr ""
 
-#: inc/classes/class-astra-sites-page.php:279
+#: inc/classes/class-astra-sites-page.php:289
 msgid ""
 "Astra offers starter sites that can be imported in one click. These "
 "templates are available in few different page builders. Please choose your "
 "preferred page builder from the list below."
 msgstr ""
 
-#: inc/classes/class-astra-sites-page.php:286
-msgid "Gutenberg"
-msgstr ""
-
-#: inc/classes/class-astra-sites-page.php:293
-#: inc/classes/class-astra-sites-page.php:331
-msgid "Elementor"
-msgstr ""
-
-#: inc/classes/class-astra-sites-page.php:300
-#: inc/classes/class-astra-sites-page.php:332
-msgid "Beaver Builder"
-msgstr ""
-
-#: inc/classes/class-astra-sites-page.php:306
-#: inc/classes/class-astra-sites-page.php:333
-msgid "Brizy"
-msgstr ""
-
-#: inc/classes/class-astra-sites-page.php:311
+#: inc/classes/class-astra-sites-page.php:303
 msgid "Please select your favorite page builder to continue.."
 msgstr ""
 
-#: inc/classes/class-astra-sites-page.php:313 inc/includes/admin-page.php:158
+#: inc/classes/class-astra-sites-page.php:305 inc/includes/admin-page.php:158
 msgid "Next"
 msgstr ""
 
-#: inc/classes/class-astra-sites-page.php:323
+#: inc/classes/class-astra-sites-page.php:315
 msgid "Astra Starter Sites - Your Library of 100+ Ready Templates!"
 msgstr ""
 
-#: inc/classes/class-astra-sites-page.php:330
+#: inc/classes/class-astra-sites-page.php:322
 msgid "Block Editor (Gutenberg)"
+msgstr ""
+
+#: inc/classes/class-astra-sites-page.php:323
+#: inc/classes/class-astra-sites-page.php:370
+msgid "Elementor"
+msgstr ""
+
+#: inc/classes/class-astra-sites-page.php:324
+#: inc/classes/class-astra-sites-page.php:375
+msgid "Beaver Builder"
+msgstr ""
+
+#: inc/classes/class-astra-sites-page.php:325
+#: inc/classes/class-astra-sites-page.php:380
+msgid "Brizy"
+msgstr ""
+
+#: inc/classes/class-astra-sites-page.php:365
+msgid "Gutenberg"
 msgstr ""
 
 #: inc/classes/class-astra-sites-white-label.php:187
@@ -551,11 +566,151 @@ msgstr ""
 msgid "%1$s Branding"
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:98
+#: inc/classes/class-astra-sites-wp-cli.php:99
+msgid "No sites found! Try another query."
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:134
+msgid "Are you sure you want to import the site?"
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:140
+#: inc/classes/class-astra-sites-wp-cli.php:375
+msgid "Invalid Site ID,"
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:150
+#. Translators: %s is the error message.
+msgid "Site Import failed due to error: %s"
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:162
+msgid "This is Agency site. Please activate the \"Astra Premium Sites\" license!"
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:163
+msgid ""
+"Use `wp plugin deactivate astra-sites` and then `wp plugin activate "
+"astra-pro-sites`"
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:167
+#. translators: %s is the activate plugin license link.
+msgid ""
+"Use CLI command `wp brainstormforce license activate astra-pro-sites "
+"{YOUR_LICENSE_KEY}`"
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:180
+msgid "Installing Plugins.."
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:190
+msgid "Activating Plugins.."
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:242
+#: inc/classes/class-astra-sites.php:443
+msgid "Importing Site Options.."
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:250
+#: inc/classes/class-astra-sites.php:444
+msgid "Importing Widgets.."
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:260
+#. translators: %s is the site URL.
+msgid ""
+"Site Imported Successfully!\n"
+"Visit: %s"
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:288
+msgid "Invalid XML URL."
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:293
+#. translators: %s is the XML file URL.
+msgid "Downloading %s"
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:297
+msgid "Importing WXR.."
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:301
+#. translators: %s is error message.
+msgid "WXR file Download Failed. Error %s"
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:321
+msgid "Are you sure you want to delete imported site data?"
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:329
+msgid "Reseting Posts.."
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:336
+msgid "Reseting Terms.."
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:343
+msgid "Resting WP Forms..."
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:380
+msgid "Importing customizer settings.."
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:416
+msgid "Please add valid parameter."
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:433
+#. translators: %s is the current page builder name.
+msgid "Default page builder is \"%s\"."
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:441
+#. translators: %s is the page builder name.
+msgid "\"%s\" is set as default page builder."
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:444
+msgid ""
+"Invalid page builder slug. \n"
+"Check all page builder slugs with command `wp astra-sites page_builder list`"
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:447
+msgid ""
+"Invalid parameter! \n"
+"Please use `list` or `set` parameter."
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:499
+msgid "This site page builder is not exist. Try different site page builder."
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:508
+msgid "This site type is not exist. Try different site type."
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:517
+msgid "This site category is not exist. Try different site category."
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:112
 msgid "Theme Activated"
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:162
+#: inc/classes/class-astra-sites.php:159
+msgid "User not have permission!"
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:195
 #. translators: 1: theme.php file
 msgid ""
 "<p>Astra Theme needs to be active for you to use currently installed "
@@ -563,39 +718,39 @@ msgid ""
 "data-theme-slug=\"astra\">Install & Activate Now</a></p>"
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:262
+#: inc/classes/class-astra-sites.php:303
 msgid "Installed! Activating.."
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:263
+#: inc/classes/class-astra-sites.php:304
 msgid "Activating.."
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:264
+#: inc/classes/class-astra-sites.php:305
 msgid "Activated! Reloading.."
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:265
+#: inc/classes/class-astra-sites.php:306
 msgid "Installing.."
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:298
+#: inc/classes/class-astra-sites.php:340
 msgid "Page Builder"
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:303
+#: inc/classes/class-astra-sites.php:345
 msgid "Categories"
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:344
+#: inc/classes/class-astra-sites.php:386
 msgid "Get Agency Bundle"
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:346
+#: inc/classes/class-astra-sites.php:388
 msgid "Upgrade"
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:353
+#: inc/classes/class-astra-sites.php:395
 #. translators: %s are HTML tags.
 msgid ""
 "%1$sRequired XMLReader PHP extension is missing on your server!%2$sAstra "
@@ -604,201 +759,189 @@ msgid ""
 "XMLReader PHP extension."
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:354
+#: inc/classes/class-astra-sites.php:396
 msgid ""
 "Warning! Astra Site Import process is not complete. Don't close the window "
 "until import process complete. Do you still want to leave the window?"
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:355
+#: inc/classes/class-astra-sites.php:397
 msgid "Error!"
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:356
+#: inc/classes/class-astra-sites.php:398
 msgid "Error! Read Possibilities."
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:358
+#: inc/classes/class-astra-sites.php:400
 msgid "Done! View Site"
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:359
+#: inc/classes/class-astra-sites.php:401
 msgid "Activating"
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:360
+#: inc/classes/class-astra-sites.php:402
 msgid "Active"
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:361
+#: inc/classes/class-astra-sites.php:403 inc/classes/class-astra-sites.php:404
 msgid "Import failed."
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:362
-msgid "Import failed. See error log."
-msgstr ""
-
-#: inc/classes/class-astra-sites.php:363
+#: inc/classes/class-astra-sites.php:405
 msgid "Import This Site"
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:364 inc/classes/class-astra-sites.php:380
+#: inc/classes/class-astra-sites.php:406 inc/classes/class-astra-sites.php:422
 msgid "Importing.."
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:365 inc/includes/admin-page.php:178
+#: inc/classes/class-astra-sites.php:407 inc/includes/admin-page.php:178
 msgid "Read more"
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:366
+#: inc/classes/class-astra-sites.php:408
 msgid "Hide"
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:367
+#: inc/classes/class-astra-sites.php:409
 msgid "There was a problem receiving a response from server."
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:368 inc/includes/admin-page.php:408
+#: inc/classes/class-astra-sites.php:410 inc/includes/admin-page.php:408
 msgid "No Demos found, Try a different search."
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:371
+#: inc/classes/class-astra-sites.php:413
 msgid "Installing plugin "
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:372
+#: inc/classes/class-astra-sites.php:414
 msgid "Plugin installed!"
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:373
+#: inc/classes/class-astra-sites.php:415
 msgid "Activating plugin "
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:374
+#: inc/classes/class-astra-sites.php:416
 msgid "Plugin activated "
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:375
+#: inc/classes/class-astra-sites.php:417
 msgid "Bulk plugin activation..."
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:376
+#: inc/classes/class-astra-sites.php:418
 msgid "Plugin activate - "
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:377
+#: inc/classes/class-astra-sites.php:419
 msgid "Error! While activating plugin  - "
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:378
+#: inc/classes/class-astra-sites.php:420
 msgid "Bulk plugin installation..."
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:379
+#: inc/classes/class-astra-sites.php:421
 msgid "Site API "
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:381
+#: inc/classes/class-astra-sites.php:423
 msgid "Processing requests..."
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:382
+#: inc/classes/class-astra-sites.php:424
 msgid "Importing \"Customizer Settings\"..."
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:383
+#: inc/classes/class-astra-sites.php:425
 msgid "Imported customizer settings!"
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:384
+#: inc/classes/class-astra-sites.php:426
 msgid "Importing \"Contact Forms\"..."
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:385
+#: inc/classes/class-astra-sites.php:427
 msgid "Imported Contact Forms!"
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:386
+#: inc/classes/class-astra-sites.php:428
 msgid "Preparing \"XML\" Data..."
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:387
+#: inc/classes/class-astra-sites.php:429
 msgid "Set XML data!"
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:388
+#: inc/classes/class-astra-sites.php:430
 msgid "Importing \"XML\"..."
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:389
+#: inc/classes/class-astra-sites.php:431
 msgid "Imported XML!"
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:390
+#: inc/classes/class-astra-sites.php:432
 msgid "Importing \"Options\"..."
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:391
+#: inc/classes/class-astra-sites.php:433
 msgid "Imported Options!"
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:392
+#: inc/classes/class-astra-sites.php:434
 msgid "Importing \"Widgets\"..."
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:393
+#: inc/classes/class-astra-sites.php:435
 msgid "Imported Widgets!"
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:395
+#: inc/classes/class-astra-sites.php:437
 msgid "View site: "
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:396
+#: inc/classes/class-astra-sites.php:438
 msgid "Getting Site Information.."
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:397
+#: inc/classes/class-astra-sites.php:439
 msgid "Importing Customizer Settings.."
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:398
+#: inc/classes/class-astra-sites.php:440
 msgid "Importing Contact Forms.."
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:399
+#: inc/classes/class-astra-sites.php:441
 msgid "Setting up import data.."
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:400
+#: inc/classes/class-astra-sites.php:442
 msgid "Importing Content.."
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:401
-msgid "Importing Site Options.."
-msgstr ""
-
-#: inc/classes/class-astra-sites.php:402
-msgid "Importing Widgets.."
-msgstr ""
-
-#: inc/classes/class-astra-sites.php:403
+#: inc/classes/class-astra-sites.php:445
 msgid "Import Complete.."
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:404
+#: inc/classes/class-astra-sites.php:446
 msgid "Previewing "
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:405
+#: inc/classes/class-astra-sites.php:447
 msgid "See Error Log &rarr;"
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:439
-msgid "No plugin specified"
+#: inc/classes/class-astra-sites.php:490
+msgid "User have not plugin install permissions."
 msgstr ""
 
-#: inc/classes/class-astra-sites.php:468
+#: inc/classes/class-astra-sites.php:528
 msgid "Plugin Activated"
 msgstr ""
 
@@ -834,7 +977,7 @@ msgstr ""
 msgid "No Title"
 msgstr ""
 
-#: inc/importers/wxr-importer/class-astra-wxr-importer.php:307
+#: inc/importers/wxr-importer/class-astra-wxr-importer.php:320
 msgid "Import complete!"
 msgstr ""
 
@@ -1186,6 +1329,10 @@ msgstr ""
 
 #: inc/includes/white-label.php:34
 msgid "Plugin Description:"
+msgstr ""
+
+#: inc/lib/astra-notices/class-astra-notices.php:120
+msgid "WordPress Nonce not validated."
 msgstr ""
 
 #. Plugin URI of the plugin/theme
