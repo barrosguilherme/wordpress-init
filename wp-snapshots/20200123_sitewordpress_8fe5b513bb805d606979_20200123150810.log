@@ -1,0 +1,84 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 23 de January de 2020 15:08
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.3.24
+WORDPRESS:	5.3.2
+PHP INFO:	7.3.8 | SAPI: apache2handler
+SERVER:		Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (256M default) 
+MEMORY STACK: 6MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported
+SQL CREATED: 20200123_sitewordpress_8fe5b513bb805d606979_20200123150810_database.sql
+SQL FILE SIZE: 629.4KB (644506)
+SQL FILE TIME: 2020-01-23 15:08:22
+SQL RUNTIME: 1.74 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  C:/xampp/htdocs/wordpress
+ARCHIVE FILE: 20200123_sitewordpress_8fe5b513bb805d606979_20200123150810_archive.zip
+FILTERS: *OFF*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	88.91MB
+STATS:	Dirs 703 | Files 4,585
+SQL ADDED: 20200123_sitewordpress_8fe5b513bb805d606979_20200123150810_database.sql
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 5288
+    [filename] => C:\xampp\htdocs\wordpress\wp-snapshots\tmp\20200123_sitewordpress_8fe5b513bb805d606979_20200123150810_archive.zip
+    [comment] => 
+)
+
+FILE ADDED TO ZIP: 5287
+COMPRESSION RESULT: '1'
+COMPRESSED SIZE: 28.93MB
+ARCHIVE RUNTIME: 19.23 sec.
+MEMORY STACK: 8MB
+building installer
+add_extra_files1
+add_extra_files2
+add_extra_files3
+add_extra_files4
+Doing archive file check
+add_extra_files5
+add_extra_files6
+add_extra_files8
+Successfully opened zip C:/xampp/htdocs/wordpress/wp-snapshots/tmp/20200123_sitewordpress_8fe5b513bb805d606979_20200123150810_archive.zip
+Adding enhanced installer files to archive using ZipArchive
+Installer files added to archive
+Added to archive
+After ziparchive close when adding installer
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 629.4KB
+INSTALLER FILE: 60.53KB
+ARCHIVE FILE: 30.26MB 
+EXPECTED FILE/DIRECTORY COUNT: 5,288
+ACTUAL FILE/DIRECTORY COUNT: 5,287
+ARCHIVE CONSISTENCY TEST: Pass
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 21.59 sec.
+PEAK PHP MEMORY USED: 8MB
+DONE PROCESSING => 20200123_sitewordpress 23 de January de 2020 15:08
+
